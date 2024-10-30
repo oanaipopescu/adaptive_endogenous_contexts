@@ -1,0 +1,14 @@
+sample_sizes: [200, 500, 1000, 3000]
+N_values: [8]
+densities: [0.4]
+max_lags: [0]
+pc_alphas: [0.05]
+regime_children_known: ['and_parents', True, False]
+nb_changed_links: [1]
+nb_regimes: [2]
+cycles_only: [False]
+remove_only: [True]
+use_cmiknnmixed: [False]
+imbalance_factor: [1.5]
+nb_repeats: 100
+results_folder: './update_no_cycles_remove_imbalance'

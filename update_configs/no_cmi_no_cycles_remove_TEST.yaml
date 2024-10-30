@@ -1,0 +1,15 @@
+sample_sizes: [500]
+N_values: [8]
+densities: [0.4]
+max_lags: [0]
+pc_alphas: [0.05]
+regime_children_known: ['and_parents']
+nb_changed_links: [1, 2]
+nb_regimes: [2]
+cycles_only: [False]
+remove_only: [True]
+use_cmiknnmixed: [False]
+imbalance_factor: [1.]
+# imbalance_factor: [1.5]
+nb_repeats: 2
+results_folder: './TEST'
